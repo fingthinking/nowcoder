@@ -7,9 +7,9 @@ class Solution {
 public:
     bool Find(int target, vector<vector<int>> array) {
         // 从右上角依次向左遍历
-        size_t row_size = array.size()-1;
-        size_t col = array[0].size() - 1;
-        size_t row = 0;
+        int row_size = array.size()-1;
+        int col = array[0].size() - 1;
+        int row = 0;
         while (row <= row_size && col >= 0) {
             if (target == array[row][col]) {
                 return true;

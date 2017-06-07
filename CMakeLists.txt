@@ -4,6 +4,6 @@ project(nowcoder)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        sword_to_offer/Solution_04.cpp)
+        sword_to_offer/Solution_04.cpp sword_to_offer/Solution_05.cpp)
 
 add_executable(nowcoder ${SOURCE_FILES})

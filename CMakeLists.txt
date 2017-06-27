@@ -4,6 +4,6 @@ project(nowcoder)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        huawei/Solution_03.cpp)
+        huawei/Solution_04.cpp)
 
 add_executable(nowcoder ${SOURCE_FILES})
